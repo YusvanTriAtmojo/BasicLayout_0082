@@ -31,9 +31,9 @@ class HomePage extends StatelessWidget {
       title: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween, 
         children: [
-          Icon(Icons.menu),
+          IconButton(icon: Icon(Icons.menu), onPressed: (){},),
           Text("Weather App", style: TextStyle(fontSize: 24)),
-          Icon(Icons.add_box),
+          IconButton(icon: Icon(Icons.add_box), onPressed: (){},),
         ],
       ),
     ),
